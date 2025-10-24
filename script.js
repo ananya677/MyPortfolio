@@ -27,14 +27,14 @@ const projects = [
     // PROJECT 3: **ADD YOUR NEW PROJECT HERE**
     // Copy the block above, change the details, and make sure to add a COMMA after the closing bracket '}'
     // ----------------------------------------------------
-    /*
+    
     {
         title: "My Awesome New Game",
         description: "I used an array to store enemy positions and learned how to use the 'for loop' to spawn multiple enemies. It's tough!",
         imagePath: "images/new_project_screenshot.png", // REMEMBER to add your screenshot to the 'images' folder!
         link: "https://arcade.makecode.com/#####-my-new-game"
     },
-    */
+    
 ];
  
  
@@ -83,4 +83,5 @@ projects.forEach(project => {
     projectsContainer.appendChild(card);
 
 });
+
 
