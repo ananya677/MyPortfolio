@@ -8,7 +8,7 @@ body {
 }
  
 header {
-    background-color: #4938c5;
+    background-color: #386ec5;
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -39,7 +39,7 @@ main {
 }
  
 .project-card {
-    background-color: rgb(52, 20, 196);
+    background-color: rgb(187, 124, 179);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
