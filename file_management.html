@@ -1,0 +1,75 @@
+# ~read~
+
+#hello = open("names.txt", "r")
+#content = hello.read()
+#print(content)
+#hello.close
+
+
+# ~read using a for loop~
+
+# hehe = open("names.txt", "r")
+# for line in hehe:
+#     print(line.strip())
+# hehe.close()
+
+
+# ~read a few letters~
+
+# ello = open("names.txt", "r")
+# content = ello.read(5)
+# print(content)
+# ello.close
+
+
+# ~write~
+
+# ananya = open("names.txt", "w")
+# ananya.write("Hello have a nice day.Bye bye")
+# ananya.close
+
+
+# ~append~
+
+# bye = open("names.txt", "a")
+# bye.write(" Paige, "
+#           "Zac")
+# bye.close
+
+
+# ~create~
+
+# Jama = open("random.txt","x")
+# Jama.close
+
+
+# ~add to new text file~
+
+# eheu = open("random.txt", "w")
+# eheu.write("Hi. My name is Ananya and i am 12 years old. Have a nice day! Bye!")
+# eheu.close
+
+
+# ~read in binary~
+
+# Hana = open("names.txt", "rb")
+# content = Hana.read()
+# print(content)
+# Hana.close
+
+# ~read using with statement~
+
+# with open("random.txt", "r") as file:
+#     content = file.read()
+#     print(content)
+
+
+# ~try and except~
+
+try:
+    f = open("random.txt")
+    print(f.read())
+except:
+    print("file not found")
+finally:
+    f.close()
