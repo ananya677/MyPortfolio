@@ -7,9 +7,9 @@ const projects = [
     // PROJECT 1: A Sample MakeCode Arcade Game
     // ----------------------------------------------------
     {
-        title: "Shopping List Manager in Python",
-        description: "I created a shopping list manager in python using list.",
-        imagePath: "images/space_invaders_screenshot.png", // NOTE: This image file must be in an 'images' folder!
+        title: "File Management in Python",
+        description: "I learnt how to open and read txt files from my python console",
+        imagePath: "FileManagement Code_1.png", // NOTE: This image file must be in an 'images' folder!
         link: ""
     },
  
@@ -83,3 +83,4 @@ projects.forEach(project => {
     projectsContainer.appendChild(card);
 
 });
+
