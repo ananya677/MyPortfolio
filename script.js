@@ -34,6 +34,12 @@ const projects = [
         imagePath: "images/new_project_screenshot.png", // REMEMBER to add your screenshot to the 'images' folder!
         link: "https://arcade.makecode.com/#####-my-new-game"
     },
+    {
+        title: "My jhjjhbjhbhj New Game",
+        description: "I used an array to store enemy positions and learned how to use the 'for loop' to spawn multiple enemies. It's tough!",
+        imagePath: "images/new_project_screenshot.png", // REMEMBER to add your screenshot to the 'images' folder!
+        link: "https://arcade.makecode.com/#####-my-new-game"
+    },
     
 ];
  
@@ -83,5 +89,6 @@ projects.forEach(project => {
     projectsContainer.appendChild(card);
 
 });
+
 
 
