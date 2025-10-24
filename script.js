@@ -7,10 +7,10 @@ const projects = [
     // PROJECT 1: A Sample MakeCode Arcade Game
     // ----------------------------------------------------
     {
-        title: "Space Invaders Clone",
-        description: "My first game! I learned about player movement and projectile creation. It was challenging to get the enemy sprites to move smoothly.",
+        title: "Shopping List Manager in Python",
+        description: "I created a shopping list manager in python using list.",
         imagePath: "images/space_invaders_screenshot.png", // NOTE: This image file must be in an 'images' folder!
-        link: "https://arcade.makecode.com/#####-my-game-link"
+        link: ""
     },
  
     // ----------------------------------------------------
@@ -81,4 +81,5 @@ projects.forEach(project => {
  
     // Append the full card to the main container
     projectsContainer.appendChild(card);
+
 });
